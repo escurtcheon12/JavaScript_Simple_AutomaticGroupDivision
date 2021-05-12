@@ -1,0 +1,17 @@
+member: a,b,c
+kelompok: 2
+
+output:
+kelompok1
+a
+c
+kelompok2
+b
+
+output = '';
+loop kelompok
+	output += kelompok
+	loop member
+		output += member
+
+innerHTML = output
